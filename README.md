@@ -1,13 +1,7 @@
-# Tanim Ibna Bari Khan — Personal Website
+# Tanim Ibna Bari Khan — Academic Website
 
-Academic portfolio site built from my CV. Plain HTML, CSS and JavaScript — no build step.
+Plain HTML/CSS/JS, no build step. Hosted with GitHub Pages.
 
-## Publish with GitHub Pages
+Files: index.html · style.css · script.js · photo.jpg · og.jpg (link preview) · favicon.svg · Tanim_Ibna_Bari_Khan_CV.pdf
 
-1. Go to **Settings → Pages** in this repository.
-2. Under **Source**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and save.
-3. After a minute the site is live at `https://tanimibk.github.io/My-website-/`.
-
-## Editing
-
-All content is in `index.html`; colours and layout are in `style.css`.
+To update: edit `index.html` on GitHub (pencil icon) and commit. To replace the CV, upload a new PDF with the same name.
