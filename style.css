@@ -52,10 +52,10 @@ img { max-width: 100%; display: block; }
 /* hero */
 .hero { padding-top: 48px; padding-bottom: 36px; }
 .hero-grid { display: grid; gap: 24px; align-items: start; }
-@media (min-width: 760px) { .hero-grid { grid-template-columns: 1fr 190px; gap: 40px; } }
+@media (min-width: 760px) { .hero-grid { grid-template-columns: 1fr 230px; gap: 40px; } }
 .portrait { margin: 0; width: 170px; order: -1; }
-@media (min-width: 760px) { .portrait { order: 0; width: 190px; } }
-.portrait img { width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; object-position: center top; border: 1px solid var(--line); }
+@media (min-width: 760px) { .portrait { order: 0; width: 230px; margin-top: 36px; } }
+.portrait img { width: 100%; height: auto; border: 1px solid var(--line); }
 .eyebrow { font-family: var(--sans); color: var(--muted); font-size: .82rem; margin-bottom: .4em; }
 .role { font-size: 1.02rem; margin-bottom: 1em; }
 .lead { max-width: 640px; }
