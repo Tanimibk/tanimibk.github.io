@@ -31,10 +31,4 @@ document.querySelectorAll('.chip').forEach(chip => chip.addEventListener('click'
   document.querySelectorAll('.pubs li').forEach(li => li.classList.toggle('hidden', f !== 'all' && li.dataset.kind !== f));
 }));
 
-// Fade sections in on scroll
-const io = new IntersectionObserver(entries => entries.forEach(e => {
-  if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
-}), { threshold: 0.06 });
-document.querySelectorAll('.section').forEach(s => { s.classList.add('reveal'); io.observe(s); });
-
 document.getElementById('yr').textContent = new Date().getFullYear();
